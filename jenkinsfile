@@ -17,8 +17,8 @@ pipeline {
    }
   }
   stage('email notification'){
-   mail bcc: '', body: '''hi 
-welcome''', cc: '', from: '', replyTo: '', subject: 'jenkins job', to: 'rajaa15@gmail.com'
+    mail bcc: '', body: '''hi 
+      welcome''', cc: '', from: '', replyTo: '', subject: 'jenkins job', to: 'rajaa15@gmail.com'
    }
    
   }
