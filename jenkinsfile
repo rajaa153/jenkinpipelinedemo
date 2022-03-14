@@ -16,11 +16,11 @@ pipeline {
     echo 'Deploying....'
    }
   }
-  stage('email notification'){
-    steps {
-      mail bcc: '', body: '''hi 
-        welcome''', cc: '', from: '', replyTo: '', subject: 'jenkins job', to: 'rajaa15@gmail.com'
-   }
-   }
+ // stage('email notification'){
+   // steps {
+     // mail bcc: '', body: '''hi 
+       // welcome''', cc: '', from: '', replyTo: '', subject: 'jenkins job', to: 'rajaa15@gmail.com'
+  // }
+  // }
   }
 }
